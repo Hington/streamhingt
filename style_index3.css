@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: rgba(6, 1, 1, 0.9);
+}
+header{
+    width: 100%;
+    height: 30%;
+    background-color: #0e0000;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #0e0000;
+}
+nav ul li{
+    list-style: none;
+    padding: 25px;
+    background-color: #0e0000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav ul li.nav1{
+    color: #443434;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+nav ul li.nav{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+nav ul li.logo{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #E8D1D1;
+}
+section.slider{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+}
+section.slider .slide0{
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+    border-radius: 50%;
+}
+section.slider .slide1{
+    background: url(./img/Blackhat_poster.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide2{
+    background: url(./img/robot.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide3{
+    background: url(./img/openwindows.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide4{
+    background: url(./img/hac.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide5{
+    background: url(./img/hacker.webp) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide6{
+    background: url(./img/garage.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide7{
+    background: url(./img/hac.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide8{
+    background: url(./img/haker.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide9{
+    background: url(./img/hackeree.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide10{
+    background: url(./img/robot.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide11{
+    background: url(./img/hac.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide12{
+    background: url(./img/hacker.webp) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide13{
+    background: url(./img/garage.jpg) 50% 50%;
+    background-size: cover;
+}
+section.slider .slide14{
+    background: url(./img/hac.jpg) 50% 50%;
+    background-size: cover;
+}
+.direction svg.droit{
+    position: absolute;
+    top: 16%;
+    right: 1%;
+    stroke: #e8d1d1;
+}
+.direction svg.gauche{
+    position: absolute;
+    top: 16%;
+    left: 1%;
+    stroke: #e8d1d1;
+}
+
+section.plan{
+    padding: 15px;
+}
+section.plan .titre{
+    grid-column: 2;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+section.plan .gauche{
+    background-color: #0e0000;
+    border-radius: 10px;
+    padding: 15px;
+    align-self: start;
+}
+section.plan .gauche .genre_film h2,
+section.plan .gauche .annee h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+
+section.plan .droit .film{
+    display: grid;
+    grid-template-columns: 14% 80%;
+    grid-gap: 2%;
+
+}
+section.plan .droit img{
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+section.plan .droit h1{
+    grid-column: span 2;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 8px;
+}
+section.plan .droit .titre_btn{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+section.plan .droit .titre_btn .retour{
+    color: white;
+    background-color: #0e0000;
+    border-radius: 25px;
+    padding: 9px 31px;
+    width: 100%;
+}
+section .index4 .retour{
+    color: white;
+    background-color: #0e0000;
+    border-radius: 25px;
+    padding: 9px 31px;
+    margin: 15px 25px 1px 25px;
+}
+section.plan .index3 .text h1{
+    grid-column: 2;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 8px;
+}
+section.plan .index3 .text ul{
+   margin-top: 15px;
+}
+section.plan .index3 .text li{
+   list-style: none;
+}
+section.plan .index3 button{
+    background-color: #E8D1D1;
+    border: none;
+    padding: 10px;
+    color: #0e0000;
+    font-weight: bolder;
+    width: 25%;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+section.plan .index3 .btn_img{
+    position: absolute;
+    top: 54%;
+    width: 60px;
+    left: 4%;
+}
+
+section.plan .droit .synop h1{
+font-size: 24px;
+font-weight: bolder;
+padding: 15px;
+text-align: center;
+}
+section.plan .droit .synop p{
+    width: 90%;
+    margin: 2px auto;
+    text-align: justify;
+}
+
+.video iframe{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+    margin: 25px auto;
+    height: 375px;
+    border-radius: 15px;
+}
+.direction .droit:hover, 
+.direction .gauche:hover, 
+.genre_film svg:hover, 
+.annee svg:hover,
+.film .image:hover,
+section.plan .index3 button:hover,
+section.plan .droit .titre_btn .retour:hover,
+section .index4 .retour:hover{
+    cursor: pointer;
+}

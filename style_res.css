@@ -1,0 +1,142 @@
+@media screen and (max-width:1180px) {
+    section.plan .gauche .genre_film h2, section.plan .gauche .annee h2 {
+        font-size: 12px; }
+    section.plan .gauche .genre_film main {
+                font-size: 10px;
+        }
+        section.plan .gauche .genre_film svg.c2 {
+            left: 176px;
+            top: 262px;
+            width: 19px;
+            height: 19px;
+        }
+        section.plan .gauche .genre_film svg.c1 {
+            left: 176px;
+            width: 19px;
+            height: 19px;
+        }
+        section.plan .gauche .annee svg.c2 {
+            top: 446px;
+            left: 119px;
+            width: 19px;
+            height: 19px;
+        }
+        section.plan .gauche .annee svg.c1 {
+            top: 455px;
+            left: 119px;
+            width: 19px;
+            height: 19px;
+        }
+        section.plan .gauche .images {
+            margin-top: 30px;
+        }
+}
+@media screen and (max-width:987px) {
+    section.plan {
+        grid-template-columns: 30% 68%;
+    }
+}
+@media screen and (max-width:772px) {
+    nav ul li {
+        font-size: 10px;
+    }
+    section.plan .gauche .genre_film svg.c2 {
+        top: 282px; }
+        section.plan .gauche .annee svg.c2 {
+            top: 467px;
+        }
+}
+@media screen and (max-width:600px) {
+    section.plan .gauche .genre_film h2, section.plan .gauche .annee h2 {
+        font-size: 8px;
+    }
+    section.plan .gauche .genre_film main {
+        font-size: 8px;
+    }
+    section.plan .gauche .genre_film p {
+        text-transform: capitalize;
+        font-size: 9px;
+    }
+    section.plan .gauche .genre_film svg.c2 {
+        top: 248px;
+        left: 126px;
+    }
+    section.plan .gauche .genre_film svg.c1 {
+        top: 256px;
+        left: 126px;
+    }
+    section.plan .gauche .annee svg.c2 {
+        top: 382px;
+        left: 91px;
+    }
+    section.plan .gauche .annee svg.c1 {
+        top: 374px;
+        left: 91px;
+    }
+    section.plan .droit img {
+        width: 90px;
+    }
+    section.plan .droit .film {
+        grid-template-columns: 36% 54%;
+        grid-gap: 2%;
+    }
+    section.plan .droit .text h1 {
+        font-size: 9px;
+    }
+    section.plan .droit .etoile svg {
+        width: 10px;
+        height: 10px;
+    }
+    section.plan .droit .text p {
+    font-size: 10px;
+    padding: 3%;
+}
+section.plan .gauche svg{
+    width: 15px;
+    height: 15px;
+}
+section.plan .titre {
+    font-size: 10px;
+}
+nav ul li.nav2 {
+    display: none;
+}
+section.plan {
+    grid-template-columns: 46% 51%;
+}
+section.slider .slide14,
+section.slider .slide8,
+section.slider .slide3,
+section.slider .slide5,
+section.slider .slide10,
+section.slider .slide1{
+    display: none;
+}
+}
+@media screen and (max-width: 485px){
+    section.plan {
+    grid-template-columns: 39% 60%;
+}
+}
+@media screen and (max-width: 430px)
+{
+ section.plan {
+    display: block;
+}   
+section.plan .gauche {
+    display: none;
+}
+section.plan .menu {
+    display: block;
+}
+section.plan .droit {
+    grid-template-columns: repeat(auto-fill,176px);
+}
+section.plan .droit .film {
+    grid-template-columns: 35% 53%;
+}
+section.plan .droit img {
+    width: 60px;
+}
+}
+

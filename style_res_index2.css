@@ -1,0 +1,53 @@
+@media screen and (max-width:1172px) {
+    section.plan .gauche .genre_film svg.ca2 {
+        top: 264px;
+        left: 166px;
+        width: 19px;
+        height: 19px;
+    }
+    section.plan .gauche .genre_film .ca1 {
+        top: 272px;
+        left: 166px;
+        width: 19px;
+        height: 19px;
+    }
+    section.plan .gauche .annee svg.ca4 {
+        top: 294px;
+        left: 111px;
+        width: 19px;
+        height: 19px;
+    }
+    section.plan .gauche .annee svg.ca3 {
+        top: 302px;
+        left: 111px;
+        height: 19px;
+        width: 19px;
+    }
+}
+@media screen and (max-width:987px) {
+}
+@media screen and (max-width:772px) {
+}
+@media screen and (max-width:600px) {
+    section.plan .gauche .genre_film svg.ca2 {
+        top: 247px;
+        left: 130px;
+    }
+    section.plan .gauche .genre_film .ca1 {
+        top: 256px;
+        left: 130px;
+    }
+    section.plan .gauche .annee svg.ca4 {
+        top: 267px;
+        left: 89px;
+    }
+    section.plan .gauche .annee svg.ca3 {
+        top: 276px;
+        left: 89px;
+    }
+}
+@media screen and (max-width: 485px){
+}
+@media screen and (max-width: 430px){
+}
+

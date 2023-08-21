@@ -1,0 +1,101 @@
+@media screen and (max-width:980px) {
+    section.plan .droit .film {
+        grid-template-columns: 20% 76%;
+        grid-gap: 2%;
+    }
+    section.plan .index3 .btn_img {
+        top: 58%;
+        width: 47px;
+        left: 11%;
+    }
+}
+@media screen and (max-width:760px) {
+    section.plan .droit .film {
+        grid-template-columns: 26% 70%;
+        grid-gap: 2%;
+    }
+    nav ul li.nav2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    section.plan .index3 .btn_img {
+
+        width: 47px;
+        left: 11%;
+    }
+    section.plan .droit img {
+        width: 150px;
+    }
+    section.plan .index3 button {
+        width: 29%;
+        font-size: 12px;
+    }
+    section.plan .index3 .text ul {
+        font-size: 12px;
+    }
+    section.plan .droit .film {
+        grid-template-columns: 36% 54%;
+        grid-gap: 2%;
+    }
+    section.plan .droit .text h1 {
+        font-size: 9px;
+    }
+    section.plan .droit .synop p {
+        font-size: 12px;
+    }
+    section.plan .droit .etoile svg {
+        width: 10px;
+        height: 10px;
+    }
+    section.plan .droit .text p {
+    font-size: 10px;
+    padding: 3%;
+}
+
+section.slider .slide14,
+section.slider .slide8,
+section.slider .slide3,
+section.slider .slide5,
+section.slider .slide10,
+section.slider .slide1{
+    display: none;
+}
+}
+@media screen and (max-width: 460px){
+    section.plan .droit img {
+        width: 115px;
+    }
+    section.plan .index3 .btn_img {
+        top: 52%;
+    }
+    nav ul li {
+        font-size: 15px;
+    }
+    section.plan .index3 button {
+        width: 41%;
+    }
+}
+/* @media screen and (max-width: 430px)
+{
+ section.plan {
+    display: block;
+}   
+section.plan .gauche {
+    display: none;
+}
+section.plan .menu {
+    display: block;
+}
+section.plan .droit {
+    grid-template-columns: repeat(auto-fill,176px);
+}
+section.plan .droit .film {
+    grid-template-columns: 35% 53%;
+}
+section.plan .droit img {
+    width: 60px;
+}
+} */
+
