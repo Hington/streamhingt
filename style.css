@@ -27,19 +27,28 @@ nav ul li{
     font-size: 20px;
     font-weight: bolder;
 }
-nav ul li.nav1{
+nav ul li.nav1 a {
     color: #443434;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
 }
-nav ul li.nav{
+nav ul li.nav a{
     font-weight: bold;
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
 }
-nav ul li.logo{
+nav ul li.logo a {
     font-weight: bold;
     font-family: 'Inter', sans-serif;
     color: #E8D1D1;
+    text-decoration: none;
+}
+nav ul li.icone a {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #E8D1D1;
+    text-decoration: none;
 }
 section.slider{
     display: flex;
@@ -271,4 +280,22 @@ section.plan .droit .text p{
 .annee svg:hover,
 .film .image:hover{
     cursor: pointer;
+}
+
+.couvert{
+    position: absolute;
+    top: 8%;
+    left: 30%;
+}
+.couvert input {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
+.couvert button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0e0000;
+    color: white;
 }
