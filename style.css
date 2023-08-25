@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,13 @@
 }
 body{
     background-color: rgba(6, 1, 1, 0.9);
+
 }
+body.index{
+    overflow: hidden;
+
+}
+
 header{
     width: 100%;
     height: 30%;
@@ -55,68 +62,86 @@ section.slider{
     flex-direction: row;
     padding: 15px;
     justify-content: space-around;
+    cursor: grab;
+    height: 100px;
+
 }
 section.slider .slide0{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin: 2px;
     border-radius: 50%;
+    cursor: pointer;
 }
 section.slider .slide1{
     background: url(./img/Blackhat_poster.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide2{
     background: url(./img/robot.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide3{
     background: url(./img/openwindows.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide4{
     background: url(./img/hac.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide5{
     background: url(./img/hacker.webp) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide6{
     background: url(./img/garage.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide7{
     background: url(./img/hac.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide8{
     background: url(./img/haker.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide9{
     background: url(./img/hackeree.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide10{
     background: url(./img/robot.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide11{
     background: url(./img/hac.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide12{
     background: url(./img/hacker.webp) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide13{
     background: url(./img/garage.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 section.slider .slide14{
     background: url(./img/hac.jpg) 50% 50%;
     background-size: cover;
+    cursor: pointer;
 }
 .direction svg.droit{
     position: absolute;
@@ -199,12 +224,15 @@ section.plan .gauche .annee svg.ca4{
 section.plan .gauche .annee p{
     margin-bottom: 10px;
 }
-section.plan .gauche .images{
+section.plan .gauche .images,
+section.plan .gauche .images1,
+section.plan .gauche .images2{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 section.plan .gauche .images .img1,
 section.plan .gauche .images .img2{
     width: 90px;
@@ -227,6 +255,11 @@ section.plan .gauche .genre_film main{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bolder;
+}
+.genre_film p a,
+.annee p a{
+    text-decoration: none;
+    cursor: pointer;
 }
 section.plan .gauche .genre_film p{
     text-transform: capitalize;
@@ -278,19 +311,21 @@ section.plan .droit .text p{
 .direction .gauche:hover, 
 .genre_film svg:hover, 
 .annee svg:hover,
-.film .image:hover{
+.film .image:hover,
+.couvert button:hover{
     cursor: pointer;
 }
 
 .couvert{
     position: absolute;
-    top: 8%;
-    left: 30%;
+    top: 12%;
+    left: 55%;
 }
 .couvert input {
     padding: 12px;
     border: none;
     border-radius: 8px;
+    color: #0e0000;
 }
 .couvert button {
     padding: 8px 15px;
@@ -299,3 +334,40 @@ section.plan .droit .text p{
     background-color: #0e0000;
     color: white;
 }
+
+svg.svg_svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg.svg_svg text {
+	animation: stroke 5s  alternate;
+	stroke-width: 2;
+	stroke: #443434;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(6, 1, 1, 0); stroke: #E8D1D1;
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(6, 1, 1, 0); stroke: #E8D1D1; }
+	80%  {fill: rgba(6, 1, 1, 0); stroke: #E8D1D1; stroke-width: 3; }
+	100% {
+		fill: #E8D1D1; stroke: #443434;
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+.wrapper .couverture2{
+    background-color: rgba(31, 29, 29, 0.712);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    top: -224%;
+    backdrop-filter: blur(2px);
+}
+.wrapper {
+position: absolute;
+width: 100%;
+top: 50%;
+};

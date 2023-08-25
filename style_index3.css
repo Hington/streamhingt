@@ -55,6 +55,7 @@ section.slider{
     flex-direction: row;
     padding: 15px;
     justify-content: space-around;
+    cursor: grab;
 }
 section.slider .slide0{
     height: 80px;

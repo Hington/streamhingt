@@ -47,6 +47,31 @@
         }
 }
 @media screen and (max-width:600px) {
+    svg.svg_svg text {
+        font-size: 70px;
+    }
+    section.pub h1, section.pub h2, section.pub h6 {
+        font-size: 18px !important;
+    }
+    section.pub .btn img{ 
+        top: -52px !important; 
+        left: 24px !important; 
+    }
+    section.pub .btn h3
+    { 
+        padding: 8px  !important; 
+    }
+    section.pub .btn button 
+    { 
+        padding: 14px 35px !important; 
+        border-radius: 236px 23px 219px 27px !important; 
+    }
+    section.pub .btn { 
+        grid-template-columns: 168px 153px !important; 
+    }
+    div.text {
+        font-size: 15px !important;
+    }
     section.plan .gauche .genre_film h2, section.plan .gauche .annee h2 {
         font-size: 8px;
     }
@@ -120,6 +145,31 @@ section.slider .slide1{
 }
 @media screen and (max-width: 430px)
 {
+    svg.svg_svg text {
+        font-size: 50px;
+    }
+    section.pub h1, section.pub h2, section.pub h6 {
+        font-size: 14px !important;
+    }
+    section.pub .btn img{ 
+        top: -51px !important; 
+    }
+    section.pub .btn h3
+    { 
+        padding: 8px p !important; 
+        font-size: 12px !important; 
+    }
+    section.pub .btn button 
+    { 
+        padding: 14px 35px !important; 
+        border-radius: 236px 23px 219px 27px !important; 
+    }
+    section.pub .btn { 
+        grid-template-columns: 168px 133px !important; 
+    }
+    div.text {
+        font-size: 12px !important;
+    }
  section.plan {
     display: block;
 }   

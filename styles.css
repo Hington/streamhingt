@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background: url(./img/31C9514D-B016-46EB-9F1B8F61556D7404_source.webp) no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+
+}
+.body main a{
+    text-transform: capitalize;
+    padding:15px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: rgb(69, 66, 66);
+}
+.body main a:hover{
+    text-decoration: overline;
+    color: rgb(190, 33, 33);
+}
+
+.pub1{
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.couverture{
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+    top: 0;
+}
+  
+section.pub{
+    margin: 2px auto;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+section.pub img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20%;
+    padding: 15px;
+}
+section.pub h1, section.pub h2, section.pub h6{
+    text-align: center;
+    padding: 10px;
+}
+section.pub .btn{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    margin: 25px;
+    grid-gap: 2%;
+}
+section.pub .btn button{
+    padding: 14px 35px;
+    border-radius: 236px 23px 219px 27px;
+    box-shadow: inset 0px 1px 2px 1px black;
+    border: 2px solid rgb(50, 41, 69);
+    background: rgb(29, 6, 71);
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: white;
+    
+}
+
+button:hover{
+    box-shadow: 0px 1px 2px 1px black;
+    background: rgb(167, 133, 230);
+    color: black;
+    
+}
+div.text{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 1px auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+.T_P{
+    text-align: center;
+    text-decoration: overline;
+    margin-top: 3px;
+}
+section.pub .btn h3{
+    padding: 15px;
+}
+section.pub .btn h3:hover{
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 15px;
+}
+section.pub .btn h3 a{
+    text-decoration: none;
+    color: rgb(167, 133, 230);
+    text-transform: capitalize;
+}
+section.pub .btn img{
+    width: 70px;
+    position: relative;
+    top: -55px;
+    left: 33px;
+}
+
+img.logo{
+    width: 90px;
+    padding: 15px;
+    margin: 15px;
+    animation: slide-rotate-hor-b-fwd 8s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite both;
+}
+@keyframes slide-rotate-hor-b-fwd {
+    0% {
+      -webkit-transform: translateY(0) translateZ(0) rotateX(0deg);
+              transform: translateY(0) translateZ(0) rotateX(0deg);
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+    }
+    100% {
+      -webkit-transform: translateY(150px) translateZ(130px) rotateX(90deg);
+              transform: translateY(150px) translateZ(130px) rotateX(90deg);
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+    }
+  }
+  
+.test{
+    animation: slide-fwd-tl 5s cubic-bezier(0.250, 0.460, 0.450, 0.940)  infinite both;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    width: 30px;
+
+}  
+
+.test2{
+    animation: slide-fwd-tl 15s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    width: 30px;
+
+}  
+.test4{
+     animation: flip-2-ver-right-bck 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    width: 50px;
+
+}  
+.test5{
+    animation: slide-fwd-tl 30s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 50px;
+
+}
+@keyframes flip-2-ver-right-bck {
+    0% {
+      -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+              transform: translateX(0) translateZ(0) rotateY(0);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+    }
+    100% {
+      -webkit-transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+              transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  } 
+@keyframes slide-fwd-tl {
+    0% {
+      -webkit-transform: translateZ(0) translateY(0) translateX(0);
+              transform: translateZ(0) translateY(0) translateX(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px) translateY(-100px) translateX(-100px);
+              transform: translateZ(160px) translateY(-100px) translateX(-100px);
+    }
+  }
+
+
+  .zoomInLeft {
+    -webkit-animation-name: zoomInLeft;
+    animation-name: zoomInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 15s;
+    -webkit-animation-delay: 5.2s;
+
+
+    }
+    @keyframes zoomInLeft {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+    transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+    60% {
+    opacity: 1;
+    -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+    transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+    } 
+  
+
+
